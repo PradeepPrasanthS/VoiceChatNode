@@ -1,0 +1,16 @@
+{
+  "apps": [
+    {
+      "name": "voice_browsing_server",
+      "script": "./app.js",
+      "instances": 1,
+      "exec_mode": "cluster",
+      "env": {
+        "NODE_ENV": "production",
+        "UV_THREADPOOL_SIZE": 128,
+        "GOOGLE_APPLICATION_CREDENTIALS": "./credentials.json",
+        "PORT": 1338
+      }
+    }
+  ]
+}

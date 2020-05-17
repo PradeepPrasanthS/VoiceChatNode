@@ -1,0 +1,32 @@
+{
+    "name": "voice_browsing_server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "DIATOZ",
+    "license": "ISC",
+    "dependencies": {
+        "@google-cloud/speech": "^3.3.1",
+        "@google-cloud/storage": "^4.0.0",
+        "@google-cloud/text-to-speech": "^1.4.0",
+        "app-root-path": "^2.2.1",
+        "axios": "^0.19.0",
+        "dotenv": "^8.0.0",
+        "elasticsearch": "^16.5.0",
+        "express": "^4.17.0",
+        "file-type": "^11.0.0",
+        "fs-extra": "^8.0.1",
+        "html-to-text": "^5.1.1",
+        "joi": "^14.3.1",
+        "read-chunk": "^3.2.0",
+        "request": "^2.88.0",
+        "request-promise-native": "^1.0.7",
+        "soundex": "^0.2.1",
+        "uuid": "^3.3.2",
+        "wav": "^1.0.2",
+        "ws": "^7.0.0"
+    }
+}

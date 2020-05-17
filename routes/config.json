@@ -1,0 +1,32 @@
+{
+    "development": {
+        "config_id": "development",
+        "app_name": "lnt",
+        "app_desc": "lnt portal management",
+        "node_port": 8080,
+        "json_indentation": 4,
+        "index_ebr": "lnt",
+        "index_wo": "lnt_wo",
+        "index_po": "lnt_po"
+    },
+    "testing": {
+        "config_id": "testing",
+        "index_ebr": "lnt",
+        "index_wo": "lnt_wo",
+        "index_po": "lnt_po"
+    },
+    "staging": {
+        "config_id": "staging",
+        "node_port": 8080,
+        "index_ebr": "lnt",
+        "index_wo": "lnt_wo",
+        "index_po": "lnt_po"
+    },
+    "production": {
+        "config_id": "production",
+        "node_port": 8080,
+        "index_ebr": "lnt",
+        "index_wo": "lnt_wo",
+        "index_po": "lnt_po"
+    }
+}

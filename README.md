@@ -1,2 +1,2 @@
 # VoiceChatNode
-Contains the source code which connects elasticsearch with node as well as rasa to recognize the text and reply to the conversations accordingly.
+Node.js code to query the data from the elastic search and giving it to Rasa for giving relevant answers. 
